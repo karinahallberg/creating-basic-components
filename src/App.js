@@ -3,7 +3,7 @@
 // import Button from '@material-ui/core/Button'
 // import SaveIcon from '@material-ui/icons/Save'
 import NavBar from './components/NavBar'
-import { BrowserRouter as Router, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 // import { ThemeProvider } from '@material-ui/core/styles'
@@ -17,8 +17,8 @@ export default class App extends Component {
       <Router>
         <NavBar />
         <Switch>
-          <Home exact path='/' />
-          <About path='/about' />
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
         </Switch>
       </Router>
     )

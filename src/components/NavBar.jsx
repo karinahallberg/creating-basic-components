@@ -1,17 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Nav, Bars, NavLink, NavMenu } from './NavBarElements'
 
 export default function NavBar() {
   return (
-    <div>
-      <nav>
-        <div>
-          <Link to='/'>Home</Link>
-        </div>
-        <div>
-          <Link to='/about'>About</Link>
-        </div>
-      </nav>
-    </div>
+    <>
+      <Nav>
+        <Bars />
+        <NavMenu>
+          <NavLink to='/' activeStyle>
+            Home
+          </NavLink>
+          <NavLink to='/about' activeStyle>
+            About
+          </NavLink>
+        </NavMenu>
+      </Nav>
+    </>
   )
 }
