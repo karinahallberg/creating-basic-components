@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(252, 3, 3);
+  border-style: solid;
+}
+
+.parent {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+  border-style: solid;
+}
+
+.child-item1 {
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+.child-item2 {
+  background-color: rgb(43, 92, 226);
+  padding: 10px;
+}
+
+.child-item3 {
+  background-color: rgb(58, 226, 43);
+  padding: 10px;
+}

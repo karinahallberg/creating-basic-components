@@ -12,10 +12,13 @@ export const NavLink = styled(Link)`
 
 export const Nav = styled.nav`
   background: #000;
-  height: 75px;
-  width: 85px;
+  height: 128px;
+  width: 128px;
+  position: fixed;
+  top: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   @media screen and (max-width: 768px) {
     height: 75px;
     width: 85px;
@@ -23,20 +26,14 @@ export const Nav = styled.nav`
 `
 
 export const Bars = styled(FaBars)`
-  display: block;
-  margin-left: 26px;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
   color: #fff;
   cursor: pointer;
   font-size: 1.8rem;
 `
 
 export const NavMenu = styled.div`
-  display: flex;
+  display: none;
   align-items: center;
-  margin-right: -24px;
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */

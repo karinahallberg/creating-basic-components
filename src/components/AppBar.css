@@ -1,0 +1,40 @@
+.navbar {
+  background-color: rgb(10, 10, 10);
+  height: 128px;
+  width: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bars {
+  font-size: 2rem;
+  color: aliceblue;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #443030;
+  width: 600px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  /* left: -100%; */
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 8px 8px 8px;
+  list-style: none;
+  height: 20px;
+}

@@ -6,7 +6,7 @@ export default function NavBar() {
     <>
       <Nav>
         <Bars />
-        <NavMenu>
+        <NavMenu className='side-bar'>
           <NavLink to='/' activeStyle>
             Home
           </NavLink>
