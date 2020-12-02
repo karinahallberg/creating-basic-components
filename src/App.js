@@ -12,6 +12,7 @@ import AppBar from './components/AppBar'
 // import theme from './theme'
 
 import React, { Component } from 'react'
+import './App.css'
 
 export default class App extends Component {
   render() {
@@ -22,7 +23,6 @@ export default class App extends Component {
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
         </Switch>
-        <Position />
       </Router>
     )
   }

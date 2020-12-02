@@ -2,12 +2,12 @@ import React from 'react'
 
 export const SideBarData = [
   {
-    title: 'Home',
+    title: 'I. HOME',
     path: '/',
     cName: 'nav-text',
   },
   {
-    title: 'About',
+    title: 'II. ABOUT',
     path: '/about',
     cName: 'nav-text',
   },
